@@ -1,6 +1,6 @@
-import { async } from "@firebase/util";
+// import { async } from "@firebase/util";
 import React ,{useState }from "react";
-import {Link , useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import './Sign.css'
 import { emailandpass ,createUserDocFromAuth} from "./utils/firebase";
 
